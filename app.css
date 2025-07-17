@@ -405,10 +405,12 @@ nav {
     margin-left: -50px !important;
     }
      .footer-location  {
-    margin-left: 80px !important;
+    margin-left: 70px !important;
     }
-    
-    
+
+    .footer-bottom .footer-img {
+        width: 280px !important;
+    }
      
 
 
