@@ -87,7 +87,7 @@ nav {
       }
      
       .hero-small {
-        width: 100px !important;
+        max-width: 100px !important;
         height: 53px !important;
         position: absolute !important;
         top: -0px !important;
@@ -97,7 +97,7 @@ nav {
       .hero-big {
         position: absolute !important;
         top: 150px !important;
-        left: 230px !important;
+        left: 250px !important;
       }
       .hero-big_img p {
         font-size: 5px;
@@ -120,19 +120,37 @@ nav {
         
       }
       .hero-big{
-    width: 120px !important;
-        height: 120px !important;
+    width: 100px !important;
+        height: 80px !important;
 
+      }
+      .hero-name p{
+        font-size: 5px !important;
+
+      }
+        .hero-name span{
+        font-size: 3px !important;
+        
+      }
+      .hero-name  {
+        display: flex !important;
+        flex-direction: column !important;
       }
       .hero-small span {
         font-size: 6px ;
 
       }
-      .hero-text {
+      .hero-span {
         font-size: 5px !important;
         max-width: 60px !important;
-        line-height: 100% !important;
         font-weight: 400 !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 2px !important;
+       margin: 0 auto !important;
+       padding: 10px 0px;
+
       }
       .hero-small_img b , span{
         font-size: 12px;
