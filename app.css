@@ -243,7 +243,6 @@ nav {
        }
        .Services-text p {
         font-size: 14px !important;
-        text-align: center !important;
         max-width: 350px !important;
         margin: 0 auto;
        }
@@ -410,6 +409,10 @@ nav {
 
     .footer-bottom .footer-img {
         width: 280px !important;
+    }
+    .Services-text .primary {
+       position: absolute !important;
+     margin-top: 50px !important;
     }
      
 
