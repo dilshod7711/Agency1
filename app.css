@@ -8,7 +8,13 @@
     font-family: Quicksand;
     list-style: none;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+  
 
 .container {
     max-width: 1240px;
