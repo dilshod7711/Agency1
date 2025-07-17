@@ -165,8 +165,73 @@ nav {
       }
         .about h1 {
         font-size:  24px !important;
-        
       }
+      .about-content {
+        display:flex !important;
+      flex-direction: column-reverse !important;
+
+      }
+      .about-text p {
+        font-size: 14px !important;
+        max-width: 340px !important;
+      }
+      .text-p {
+        display: inline-block !important;
+      }
+       .text-p2 {
+        display: none !important;
+       }
+       .about-btn .active {
+        font-size: 12px !important;
+        max-width: 124px !important;
+        height: 38px !important;
+       }
+        .about-btn .primary {
+        font-size: 12px !important;
+        max-width: 124px !important;
+        height: 38px !important;
+       }
+       .about-img img {
+        width: 340px !important;
+        height: 242px !important;
+       }
+       .about-dot .dot4 {
+        display: none !important;
+       }
+        .about-dot .dot3 {
+        width: 100px !important;
+        height: 70px !important;
+        position: absolute !important;
+        left: -10px !important;
+       }
+       .Services-text h6 {
+        font-size: 14px !important;
+        text-align: center !important;
+       }
+        .Services-text h1 {
+        font-size: 24px !important;
+        text-align: center !important;
+       }
+       .Services-text p {
+        font-size: 14px !important;
+        text-align: center !important;
+        max-width: 350px !important;
+        margin: 0 auto;
+       }
+       .Services-content {
+        display: flex !important;
+        flex-direction: column !important;
+       }
+     .Services-text .primary {
+        font-size: 12px !important;
+       position: absolute !important;
+       top: -100px !important;
+       left: -100px !important;
+     }
+   
+}
+.text-p  {
+    display: none;
 }
 .links {
     display: flex;
