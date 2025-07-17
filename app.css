@@ -29,7 +29,7 @@ nav {
 @media (max-width: 500px) {
       .container{
         max-width: 400px;
-        padding: 0px 15px;
+        padding: 0px 25px;
       }
       .links a {
         display: none;
@@ -228,7 +228,138 @@ nav {
        top: -100px !important;
        left: -100px !important;
      }
+     .Services-card-content {
+        display: flex !important;
+        flex-direction: column !important;
+
+     }
+     .Services-card {
+        max-width: 282px !important;
+        height: 269px !important;
+        border: 1px solid gray !important;
+     }
+     .Portfolio-content h6 {
+        font-size: 14px !important;
+        text-align: center !important;
+     }
+      .Portfolio-content h1 {
+        font-size: 24px !important;
+        text-align: center !important;
+     }
+      .Portfolio-content p {
+        font-size: 14px !important;
+        text-align: center !important;
+        max-width: 340px !important;
+        margin: 20px 0px !important;
+        color: #464646 !important;
+     }
+     .Portfolio-cards {
+        display:  flex !important;
+        flex-direction: column !important;
+        gap: 20px !important;
+     }
+     .portfolio-img .active-img-1 {
+        width: 300px !important;
+        height: 300px !important;
+
+     }
+      .portfolio-img .active-img-2 {
+        width: 340px !important;
+        height: 340px !important;
+
+     }
+     .Portfolio-cards .primary {
+        font-size: 12px !important;
+         
+     }
+     .Testimonial .dot1 {
+        display: none !important;
+     }
+      .Testimonial h6 {
+       font-size: 14px !important;
+       text-align: center !important;
+      }
+       .Testimonial h1 {
+       font-size: 24px !important;
+       text-align: center !important;
+      
+     }
+     .Testimonial-content {
+        display: flex !important;
+        flex-direction: column !important;
+
+     }
    
+    
+     .Testimonial-card {
+    width: 340px !important;
+        height: 257px !important;
+     }
+     .active-none {
+        display: none !important;
+     }
+      .active-none  b {
+        font-size: 18px !important;
+      }
+       .active-none  span {
+        font-size: 11px !important;
+      }
+       .active-none  p {
+        font-size: 14px !important;
+      }
+      .Testimonial-bottom {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        gap: 20px !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative !important;
+        margin-top: 520px !important;
+        
+      } 
+      .Testimonial-bottom_text {
+        margin-top: 120px !important;
+      }
+    .Testimonial-bottom_img .bottom_img1 {
+        position: absolute !important;
+        top: -130px !important;
+        left: -160px !important;
+        width: 221px !important;
+        height: 196px !important;
+    }
+    .Testimonial-bottom_img .bottom_img2 {
+        position: absolute !important;
+        top: -250px !important;
+        left: -50px !important;
+        width: 221px !important;
+        height: 196px !important;
+    }
+        .Testimonial-bottom_img .bottom_img4 {
+      display: none !important;
+    }    .Testimonial-bottom_img .bottom_img3 {
+       display: none !important;
+    }
+    .Testimonial-bottom_text h2 {
+        font-size: 28px !important;
+        text-align: center !important;
+        max-width: 339px !important;
+    }
+    .Testimonial-bottom_text p {
+        font-size: 14px !important;
+        text-align: center !important;
+        max-width: 339px !important;
+    }
+    .Testimonial-bottom_text button {
+        font-size: 12px !important;
+       margin: 0 auto !important;
+       display: flex !important;
+       justify-content: center !important;
+       margin-top: 20px !important;
+    }
+     
+     
+
+
 }
 .text-p  {
     display: none;
