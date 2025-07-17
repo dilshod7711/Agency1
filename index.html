@@ -8,7 +8,8 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
 </head>
 <body>
-     <header>
+ 
+     <header id="header">
         <div  class="container">
             <nav>
                 <div class="logo">
@@ -20,9 +21,9 @@
                 </div>
                 <div class="links">
                     <a href=""> Home</a>
-                    <a href=""> About</a>
-                    <a href=""> Services</a>
-                    <a href=""> Projects</a>
+                    <a href="#about"> About</a>
+                    <a href=" #services"> Services</a>
+                    <a href=" #projects"> Projects</a>
                 </div>
                 <div class="nav-contact">
                     <button>Contact us</button>
@@ -74,7 +75,7 @@
                 </div>
         </div>
      </section>
-     <section class="about">
+     <section class="about" id="about">
         <div class="container">
              <h6>About Us</h6>
              <h1>Our Teammate</h1>
@@ -98,7 +99,7 @@
              </div>
         </div>
      </section>
-     <section class="Services">
+     <section class="Services" id="services">
         <div class="container">
            <div class="Services-content">
             <div class="Services-text" data-aos="fade-right"
@@ -149,7 +150,7 @@ Opimization</p>
            </div>
         </div>
      </section>
-     <section class="Portfolio">
+     <section class="Portfolio" id="projects">
         <div class="container">
             <div class="Portfolio-content">
                 <img class="dot" src="./imgs/dott2.svg" alt="">
@@ -240,9 +241,53 @@ Opimization</p>
             </div>
         </div>
      </section>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
-    
-</script>
+
+
+     <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="footer-content">
+                     <div class="footer-logo">
+                        <img src="./imgs/grop.png" alt="">
+                     </div>
+                     <div class="footer-terms">
+                        <p>Terms & policies</p>
+                        <a href="">Terms of Service</a>
+                        <a href="">Privacy Policy</a>
+                     </div>
+                     <div class="footer-company">
+                        <p>Company</p>
+                        <a href=""> Home</a>
+                        <a href="">About Us</a>
+                        <a href="">Contact Us</a>
+                     </div>
+                     <div class="footer-contact">
+                        <p>Contact </p>
+                        <a href="">(+62) 893912392190"></a>
+                        <a href="">agecnycr@gmail.com</a>
+                     </div>
+                     <div class="footer-location">
+                        <p>Location</p>
+                        <a href="">PT Osiris Real Estate Internasional</a>
+                        <a href="">Jl. KH. Wahid Hasyim Kel No.10D</a>
+                        <a href="">Jakarta, Indonesia</a>
+                        <a href="">team@OsirisRealEstate.com</a>
+                     </div>
+                </div>
+                <div class="footer-bottom">
+                    <img class="footer-img" src="./imgs/tarmoq.svg" alt="">
+                      <p>Copyright @ 2022 Agency Creative. All Right Reserved</p>
+                </div>
+            </div>
+            
+        </div>
+     </footer>
+
+
+
+          <a href="#header" class="back-to-top">↑</a>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();
 </script>

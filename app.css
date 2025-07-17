@@ -13,7 +13,26 @@
 html, body {
     overflow-x: hidden;
     width: 100%;
+    scroll-behavior: smooth;
 }
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #000;
+  color: #fff;
+  padding: 15px;
+  width: 50px;
+  border-radius: 50%;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  cursor: pointer;
+}
+
   
 
 .container {
@@ -25,6 +44,16 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 25px 0;
+    /* position: fixed; */
+    /* display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 50px; */
+    /* background-color: rgba(247, 239, 239, 0.84); */
+    /* z-index: 99;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto; */
 }
 @media (max-width: 500px) {
       .container{
@@ -225,7 +254,7 @@ nav {
      .Services-text .primary {
         font-size: 12px !important;
        position: absolute !important;
-       top: -100px !important;
+       top: -110px !important;
        left: -100px !important;
      }
      .Services-card-content {
@@ -356,7 +385,156 @@ nav {
        margin-top: 20px !important;
     }
      
+    .footer-content {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 40px !important;
+        justify-content: center !important;
+        align-items: center !important
+    }
+    footer {
+        padding: 20px 20px !important    ;
+    }
+    .footer-bottom p {
+        font-size: 10px !important;
+        text-align: center !important;
+        color: #FFFFFF !important;
+    }
+   
+    .footer-company  {
+    margin-left: -50px !important;
+    }
+     .footer-location  {
+    margin-left: 80px !important;
+    }
+    
+    
      
+
+
+}
+@media (max-width: 1000px) {
+    .container {
+        max-width: 900px;
+        padding: 0px 25px ;
+    }
+    .hero-dot .dot1, .dot2 {
+        display: none;
+    }
+    .hero_cantent .hero_img {
+        border-radius: 12px;
+        width: 650px;
+    }
+    .hero h1 {
+        font-size: 40px !important;
+        max-width: 550px !important;
+    }
+    .hero p {
+        font-size: 16px !important;
+        max-width: 550px !important;
+    }
+    .hero_cantent {
+        position: relative !important;
+    }
+    .hero-small {
+        position: absolute !important;
+        top: 20px !important;
+        left: 60px !important;
+
+    }
+    .hero-big {
+        display: none !important;
+    }
+    .about-content {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 20px !important;
+        justify-content: center !important;
+
+    }
+    .about-img img {
+        display: flex !important;
+        /* justify-content: center !important; */
+        /* align-items: center !important; */
+        /* margin: 0 auto !important; */
+    }
+    .about-dot .dot3 {
+        display: none !important;
+    }
+    .Services-content {
+        display: flex !important;
+        flex-direction: column !important;
+
+    }
+.Services-text h6 {
+    text-align: center !important;
+    font-size: 20px !important;
+}
+.Services-text h1 {
+    text-align: center !important;
+    font-size: 40px !important;
+    max-width: 500px !important;
+}
+.Services-text  {
+    position: relative !important;
+}
+.Services-text .primary {
+    position: absolute !important;
+    top: 270px !important;
+    left: -350px !important;
+    font-size: 16px !important;
+}
+.Portfolio-content h6 {
+    font-size: 20px !important;
+    text-align: center !important;
+}
+.Portfolio-content h1 {
+    font-size: 40px !important;
+    text-align: center !important;
+}
+.Portfolio-content p {
+    font-size: 16px !important;
+    text-align: center !important;
+    max-width: 500px !important;
+    margin-top: 20px !important;
+    color: #464646 !important;
+}
+.Portfolio-cards {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 20px !important;
+  
+}
+.portfolio-img .active-img-1 {
+    width: 250px !important;
+}
+.portfolio-img .active-img-2 {
+    width: 350px !important;
+}
+.Testimonial-content {
+    display: flex !important;
+    gap: 30px !important;
+    max-width: 900px !important;
+}
+.Testimonial h6 {
+    font-size: 20px !important;
+    text-align: center !important;
+}
+.Testimonial h1 {
+    font-size: 40px !important;
+    text-align: center !important;
+}
+.Testimonial p {
+    font-size: 16px !important;
+    text-align: center !important;
+    max-width: 500px !important;
+    margin-top: 20px !important;
+    color: #464646 !important;
+}
+
+
+
 
 
 }
@@ -980,4 +1158,85 @@ margin: 30px 0;
 }
 .menu {
     display: none;
+}
+footer {
+    background-color: #383638;
+    padding: 20px 0;
+}
+.footer-logo {
+    max-width: 187px;
+    height: 88px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin: 0 auto;
+    gap: 100px;
+    max-width: 1400px;
+}
+.footer-content a {
+    max-width: 284px;
+}
+.footer-location {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+
+}
+.footer-terms {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-company {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 1400px;
+}
+.footer-img {
+    display: flex;
+    gap: 10px;
+    width: 360px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+
+}
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 70px
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.footer-content p {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.footer-content a{
+    font-size: 14px;
+    color: #FFFFFF;
 }
