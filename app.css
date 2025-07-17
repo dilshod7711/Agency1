@@ -60,7 +60,7 @@ nav {
       .hero-dot .dot1 {
           position: absolute !important;
           top: 265px !important;
-          left: 265px !important;
+          left: 258px !important;
       }
       .hero-dot .dot2 {
         position: absolute !important;
@@ -97,7 +97,7 @@ nav {
       .hero-big {
         position: absolute !important;
         top: 150px !important;
-        left: 250px !important;
+        left: 230px !important;
       }
       .hero-big_img p {
         font-size: 5px;
@@ -120,7 +120,7 @@ nav {
         
       }
       .hero-big{
-        max-width: 120px !important;
+    width: 120px !important;
         height: 120px !important;
 
       }
